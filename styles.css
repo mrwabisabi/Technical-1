@@ -1,0 +1,46 @@
+body {
+    background-image: url();
+    background-position-x: 50%;
+    background-position-y: 30%;
+    transition: background-color 0.5s;
+}
+
+.img {
+    max-width: 100%;
+    max-height:100%;
+    float: left;
+    text-align: left;
+}
+
+.register{
+    margin: auto;
+    max-width:800px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.fieldset {
+    flex: 2;
+    margin-left: 50px;
+    padding-left: -50px;
+    padding-right: -50px;
+    width: auto;
+    height: auto; /* Adjust as needed */
+    border-width: 2px;
+  }
+
+h4 {
+    text-align: left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+}
+
+h1 {
+    
+}
+
+#colorChangeButton {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
